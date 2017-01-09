@@ -1,0 +1,25 @@
+@import "../../../assets/styles/theme-default";
+
+.honor-award {
+  .year {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: $theme-color;
+  }
+
+  .award-name {
+    color: $text-grey;
+    margin-top: -4px;
+    font-size: 18px;
+    font-weight: 300;
+    .name {
+      font-weight: 500;
+    }
+  }
+  .award-location {
+    color: $text-grey;
+    font-weight: 300;
+  }
+}

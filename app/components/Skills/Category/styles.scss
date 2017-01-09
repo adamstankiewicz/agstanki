@@ -1,0 +1,18 @@
+@import "../../../assets/styles/theme-default";
+
+.skill-category {
+  .category-label {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    color: $theme-color;
+  }
+
+  .category-skills {
+    color: $text-grey;
+    margin-top: -3px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}

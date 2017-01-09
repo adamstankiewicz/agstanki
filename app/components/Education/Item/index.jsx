@@ -1,5 +1,7 @@
 import React from 'react';
 
+require('./styles.scss');
+
 class Item extends React.Component {
   constructor(...args) {
     super(...args);
@@ -7,8 +9,7 @@ class Item extends React.Component {
   }
 
   render() {
-    let colWidth = Math.floor(12 / this.props.numItems);
-    colWidth = (colWidth > 5 ? 5 : colWidth);
+    const colWidth = Math.floor(12 / this.props.numItems);
     let advisor;
     if (this.props.data.advisor && this.props.data.advisor.name) {
       if (this.props.data.advisor.url) {
@@ -41,7 +42,19 @@ class Item extends React.Component {
           </div>
           <div className="desc">
             {advisor}
-            {(this.props.data.description) ? this.props.data.description : null}
+            {
+              (this.props.data.description && Array.isArray(this.props.data.description) ? (
+                <ul>
+                  {this.props.data.description.map((item, key) =>
+                    <li key={key}>{item}</li>
+                  )}
+                </ul>
+              ) : '')
+            }
+            {
+              (this.props.data.description && !Array.isArray(this.props.data.description) ?
+                this.props.data.description : '')
+            }
           </div>
         </div>
       </div>
