@@ -1,14 +1,13 @@
 {
-  "name": "react-babel-webpack-boilerplate",
-  "version": "1.2.4",
-  "description": "",
+  "name": "adam-stankiewicz",
+  "version": "1.0.0",
+  "description": "Personal website for Adam Stankiewicz.",
   "main": "app/main.jsx",
   "scripts": {
     "lint": "eslint 'app/**/*.@(js|jsx)'",
     "build": "webpack",
     "start": "webpack-dev-server --devtool eval --progress --hot --content-base app",
-    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
-    "commit": "git cz"
+    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"
   },
   "dependencies": {
     "babel-runtime": "^6.20.0",
@@ -56,8 +55,7 @@
   "license": "MIT",
   "config": {
     "ghooks": {
-      "pre-commit": "npm run lint",
-      "commit-msg": "npm run lint:msg"
+      "pre-commit": "npm run lint"
     },
     "validate-commit-msg": {
       "types": [
