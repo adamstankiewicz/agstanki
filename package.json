@@ -4,7 +4,8 @@
   "description": "Personal website for Adam Stankiewicz.",
   "main": "app/main.jsx",
   "engines": {
-    "node": "6.9.2"
+    "node": "6.9.2",
+    "npm": "3.10.9"
   },
   "scripts": {
     "lint": "eslint 'app/**/*.@(js|jsx)'",
