@@ -1,18 +1,30 @@
 @import "../../../assets/styles/theme-default";
 
 .skill-category {
+  margin-bottom: 10px;
   .category-label {
-    margin-top: 0;
+    margin: 0;
     font-size: 18px;
     font-weight: 400;
     text-align: right;
     color: $theme-color;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .category-skills {
     color: $text-grey;
-    // margin-top: -3px;
-    // font-size: 18px;
     font-weight: 300;
+  }
+}
+
+@media (max-width: 757px) {
+  .skill-category {
+    .category-label {
+      font-size: 15px;
+    }
+    .category-skills {
+      margin-top: -2px;
+    }
   }
 }

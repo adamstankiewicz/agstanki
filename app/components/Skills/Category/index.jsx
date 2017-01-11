@@ -11,8 +11,10 @@ class Category extends React.Component {
   render() {
     return (
       <div className="item skill-category row">
-        <h3 className="category-label col-xs-3 col-sm-2">{this.props.data.label}</h3>
-        <div className="category-skills col-xs-9 col-sm-10">
+        <h3 className="category-label col-xxs-4 col-xs-3 col-sm-3 col-md-2">
+          {this.props.data.label}
+        </h3>
+        <div className="category-skills col-xxs-8 col-xs-9 col-sm-9 col-md-10">
           {
             this.props.data.items.map((skill, key) => {
               let skillNode;
