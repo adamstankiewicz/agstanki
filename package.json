@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Personal website for Adam Stankiewicz.",
   "main": "app/main.jsx",
+  "engines": {
+    "node": "6.9.2"
+  },
   "scripts": {
     "lint": "eslint 'app/**/*.@(js|jsx)'",
     "build": "webpack",
