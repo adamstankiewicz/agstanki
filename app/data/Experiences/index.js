@@ -56,7 +56,7 @@ const positions = [
       'Developed a browser-based conversational turn detector for video conversations (i.e., Google Hangouts) using Python and JavaScript.',
       [
         'Wrote several Python and R scripts to analyze and visualize the conversational turn-taking data from 392 discussion groups consisting of 1,027 users (approximately 800,000 reported turns).',
-        'Created a metric to measure and analyze dominant behavior in multiparty video conversations using the turn-taking data.',
+        'Created a metric to measure and analyze dominant behavior in multi-party video conversations using the turn-taking data.',
       ],
       'Planned and carried out several experiments utilizing Amazon Mechanical Turk to learn about user behavior in giving advice to peers.',
       'Designed a prototype of an embeddable JavaScript library to enable peer-to-peer advice giving and receiving on third-party websites.',

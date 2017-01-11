@@ -9,6 +9,8 @@ import Publications from '../Publications';
 import HonorsAwards from '../HonorsAwards';
 import Footer from '../Footer';
 
+require('./styles.scss');
+
 const App = () =>
   <div>
     <Header />
