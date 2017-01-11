@@ -12,7 +12,7 @@
     "build": "webpack",
     "start": "webpack-dev-server --devtool eval --progress --hot --content-base app",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
-    "heroku-postbuild": "yarn deploy && node build/app.js"
+    "heroku-postbuild": "yarn deploy"
   },
   "dependencies": {
     "babel-runtime": "^6.20.0",
