@@ -14,10 +14,10 @@ class Item extends React.Component {
     const awardDate = moment(`${this.props.data.year}-${month}-01`, 'YYYY-MM-DD');
     return (
       <div className="item honor-award row">
-        <h3 className="year col-xs-3 col-sm-1">
+        <h3 className="year col-xxs-2 col-xs-3 col-sm-1">
           {awardDate.format('YYYY')}
         </h3>
-        <p className="award-location col-xs-9 visible-xs text-right">
+        <p className="award-location col-xs-9 visible-xs">
           <i className="fa fa-map-marker" /> &nbsp; {this.props.data.location}
         </p>
         <p className="award-name col-xs-12 col-sm-8 col-md-9">

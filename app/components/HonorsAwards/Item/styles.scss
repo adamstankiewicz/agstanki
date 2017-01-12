@@ -21,11 +21,20 @@
   .award-location {
     color: $text-grey;
     font-weight: 300;
+    text-align: right;
   }
 }
 
 @media (max-width: 767px) {
   .honor-award {
     margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 479px) {
+  .honor-award {
+    .award-location {
+      text-align: left;
+    }
   }
 }
