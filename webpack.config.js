@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devtool: 'eval',
@@ -39,7 +40,10 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+    new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+    new CopyWebpackPlugin([
+      { from: './app/assets/images/favicon/**/*', toType: 'dir', to: 'assets/images/favicon' },
+    ]),
   ],
   node: {
     fs: 'empty'

@@ -45,6 +45,7 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: './app/index.html', to: 'index.html' },
       { from: './app/app.js', to: 'app.js' },
+      { from: './app/assets/images/favicon', toType: 'dir', to: './assets/images/favicon' },
     ]),
   ]
 };
