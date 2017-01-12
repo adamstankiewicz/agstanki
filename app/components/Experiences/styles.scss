@@ -1,5 +1,18 @@
-#experience {
-  .item {
+@media (max-width: 1199px) {
+  .timeline {
+    .place {
+      margin-bottom: 5px !important;
+    }
+    .location {
+      position: static !important;
+      top: 0;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+@media (min-width: 768px) { 
+  .timeline {
     .job-meta {
       width: 220px;
     }
