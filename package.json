@@ -12,7 +12,9 @@
     "build": "webpack",
     "start": "webpack-dev-server --devtool eval --progress --hot --content-base app",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
-    "heroku-postbuild": "yarn deploy"
+    "heroku-postbuild": "yarn deploy",
+    "precommit": "yarn lint",
+    "prepush": "yarn lint"
   },
   "dependencies": {
     "babel-core": "^6.21.0",
@@ -44,42 +46,15 @@
     "webpack": "^1.14.0"
   },
   "devDependencies": {
-    "commitizen": "^2.5.0",
-    "conventional-changelog-cli": "^1.2.0",
-    "cz-conventional-changelog": "^1.1.5",
     "eslint": "^3.12.2",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.8.0",
-    "ghooks": "^1.0.3",
+    "husky": "^0.12.0",
     "open-browser-webpack-plugin": "0.0.2",
-    "validate-commit-msg": "^2.8.2",
     "webpack-dev-server": "^1.16.2"
   },
   "author": "Adam Stankiewicz",
-  "license": "MIT",
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run lint"
-    },
-    "validate-commit-msg": {
-      "types": [
-        "feat",
-        "fix",
-        "docs",
-        "style",
-        "refactor",
-        "perf",
-        "test",
-        "chore",
-        "revert"
-      ],
-      "warnOnFail": false,
-      "maxSubjectLength": 100
-    },
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  }
+  "license": "MIT"
 }
