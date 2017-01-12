@@ -1,6 +1,8 @@
 import React from 'react';
 import Scroll from 'react-scroll';
 
+import { handleGAEventLink } from '../../Utility';
+
 import Actions from './Actions';
 import Social from './Social';
 import Intro from './Intro';
@@ -76,6 +78,7 @@ class Header extends React.Component {
                     isDynamic
                     offset={-70}
                     href="#"
+                    onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Experience'); }}
                   >Experience</Link>
                 </li>
                 <li>
@@ -86,6 +89,7 @@ class Header extends React.Component {
                     isDynamic
                     offset={-70}
                     href="#"
+                    onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Education'); }}
                   >Education</Link>
                 </li>
                 <li>
@@ -96,6 +100,7 @@ class Header extends React.Component {
                     isDynamic
                     offset={-70}
                     href="#"
+                    onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Skills'); }}
                   >Skills</Link>
                 </li>
                 <li>
@@ -106,6 +111,7 @@ class Header extends React.Component {
                     isDynamic
                     offset={-70}
                     href="#"
+                    onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Publications'); }}
                   >Publications</Link>
                 </li>
                 <li>
@@ -116,6 +122,7 @@ class Header extends React.Component {
                     isDynamic
                     offset={-70}
                     href="#"
+                    onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Honors & Awards'); }}
                   >Honors &amp; Awards</Link>
                 </li>
               </ul>
