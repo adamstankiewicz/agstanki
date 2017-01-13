@@ -125,6 +125,17 @@ class Header extends React.Component {
                     onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Honors & Awards'); }}
                   >Honors &amp; Awards</Link>
                 </li>
+                <li>
+                  <Link
+                    to="boomerangs"
+                    smooth
+                    spy
+                    isDynamic
+                    offset={-70}
+                    href="#"
+                    onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Boomerangs'); }}
+                  >Boomerangs</Link>
+                </li>
               </ul>
             </div>
           </div>

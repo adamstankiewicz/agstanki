@@ -7,6 +7,7 @@ import Experiences from '../Experiences';
 import Skills from '../Skills';
 import Publications from '../Publications';
 import HonorsAwards from '../HonorsAwards';
+import Boomerangs from '../Boomerangs';
 import Footer from '../Footer';
 
 require('./styles.scss');
@@ -20,6 +21,7 @@ const App = () =>
       <Skills />
       <Publications />
       <HonorsAwards />
+      <Boomerangs />
     </div>
     <Footer />
     <ScrollToTop

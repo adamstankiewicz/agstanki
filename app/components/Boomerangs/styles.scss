@@ -1,0 +1,24 @@
+#boomerangs {
+  .gallery {
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+
+    @media (max-width: 991px) {
+      column-count: 2;
+    }
+
+    @media (max-width: 479px) {
+      column-count: 1;
+    }
+
+    a.img-thumbnail {
+      border: 0;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
