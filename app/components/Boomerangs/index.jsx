@@ -78,6 +78,12 @@ class Boomerangs extends React.Component {
     return (
       <section id="boomerangs" className="boomerangs-section section">
         <h2 className="section-title">Boomerangs</h2>
+        <p className="description">
+          Throwing boomerangs is one of many things I do in my free time. I started throwing in October 2011 and have competed in several regional and national tournaments each year. Also, I&apos;ve been a member of the <a target="_blank" rel="noopener noreferrer" href="http://usboomerangteam.com">United States Boomerang Team</a> since 2012. Since then, I&apos;ve competed in three World Boomerang Championships: S&atilde;o Paulo, Brazil (2012); Perth, Australia (2014); and Kiel, Germany (2016).
+        </p>
+        <p className="description">
+          Additionally, I was a Board Member at Large for the <a target="_blank" rel="noopener noreferrer" href="http://usba.org">United States Boomerang Association</a> for two years.
+        </p>
         <div className="gallery">
           {
             this.images.map((image, key) =>

@@ -1,5 +1,12 @@
+@import "../../assets/styles/theme-default";
+
 #boomerangs {
+  .description {
+    font-size: 16px;
+    color: $text-color;
+  }
   .gallery {
+    margin-top: 35px;
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
