@@ -29,8 +29,6 @@ class Testimonials extends React.Component {
         <div
           id="testimonials-carousel"
           className="testimonials-carousel carousel slide"
-          data-interval={this.carouselInterval}
-          data-ride="carousel"
         >
           <ol className="carousel-indicators">
             {
