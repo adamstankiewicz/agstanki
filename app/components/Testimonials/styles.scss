@@ -1,0 +1,51 @@
+@import "../../assets/styles/theme-default";
+
+$carousel-controls-height: 32px;
+
+#testimonials {
+  .testimonials-carousel {
+    max-width: 100%;
+    margin: 0;
+
+    .carousel-inner {
+      max-width: 900px;
+      margin: 0 auto;
+
+      .item {
+        .quote {
+          font-size: 14px;
+          color: $text-color;
+        }
+      }
+    }
+
+    .carousel-control {
+      background-image: none;
+      color: lighten($text-grey, 8%);
+      font-weight: 600;
+      width: 5%;
+      text-shadow: none;
+      font-size: 32px;
+
+      .fa {
+        position: relative;
+        height: $carousel-controls-height;
+        top: calc(50% - #{$carousel-controls-height});
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  #testimonials {
+    .testimonials-carousel {
+      .carousel-inner {
+        max-width: 700px;
+      }
+
+      .carousel-control {
+        width: 6%;
+      }
+    }
+  }
+}

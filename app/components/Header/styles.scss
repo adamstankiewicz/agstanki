@@ -2,10 +2,33 @@
   .title {
     margin-bottom: 0 !important;
   }
-  .social li .fa {
-    padding-top: 3px;
+
+  .social {
+    li {
+      .fa {
+        padding-top: 3px;
+      }
+    }
   }
-  .intro .profile-image {
-    border: 3px solid #ffffff;
+
+  .intro {
+    .profile-image {
+      border: 3px solid #ffffff;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    .page-nav-wrapper {
+      .page-nav {
+        li {
+          margin-right: 4px;
+          a {
+            padding: 0 8px;
+          }
+        }
+      }
+    }
   }
 }

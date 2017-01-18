@@ -5,12 +5,20 @@ import Header from '../Header';
 import Education from '../Education';
 import Experiences from '../Experiences';
 import Skills from '../Skills';
+import Testimonials from '../Testimonials';
 import Publications from '../Publications';
 import HonorsAwards from '../HonorsAwards';
 import Boomerangs from '../Boomerangs';
 import Footer from '../Footer';
 
 require('./styles.scss');
+
+// Include jQuery and Bootstrap JavaScript
+window.$ = window.jQuery = require('jquery');
+const Bootstrap = require('bootstrap-sass');
+
+Bootstrap.$ = window.$;
+require('bootstrap-sass/assets/javascripts/bootstrap');
 
 const App = () =>
   <div>
@@ -19,6 +27,7 @@ const App = () =>
       <Experiences />
       <Education />
       <Skills />
+      <Testimonials />
       <Publications />
       <HonorsAwards />
       <Boomerangs />
