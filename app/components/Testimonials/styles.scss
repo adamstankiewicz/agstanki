@@ -7,6 +7,16 @@ $carousel-controls-height: 32px;
     max-width: 100%;
     margin: 0;
 
+    .carousel-indicators {
+      li {
+        margin-right: 10px;
+
+        &.active {
+          margin-right: 10px;
+        }
+      }
+    }
+
     .carousel-inner {
       max-width: 900px;
       margin: 0 auto;
