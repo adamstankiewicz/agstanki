@@ -111,7 +111,7 @@ class Header extends React.Component {
                     isDynamic
                     offset={-70}
                     href="#"
-                    onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Testinmonials'); }}
+                    onClick={(e) => { handleGAEventLink(e, 'Navigation', 'Testimonials'); }}
                   >Testimonials</Link>
                 </li>
                 <li>
