@@ -77,7 +77,7 @@ const positions = [
   {
     company: 'Carnegie Mellon University',
     location: 'Pittsburgh, PA',
-    title: 'Undergraduate Research Intern (REU)',
+    title: 'Visiting Undergraduate Researcher',
     startDate: moment('2014-06-01'),
     endDate: moment('2014-07-01'),
     description: [
