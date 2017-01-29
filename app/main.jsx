@@ -15,7 +15,6 @@ import App from './components/App';
 
 if (process.env.NODE_ENV === 'production') {
   ReactGA.initialize('UA-57421502-1');
-  ReactGA.pageview('/');
 }
 
 const routes = {
