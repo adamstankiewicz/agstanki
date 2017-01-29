@@ -1,5 +1,14 @@
-#topControl {
-  .fa {
-    top: 4px !important;
+.scroll-top-container {
+  z-index: 2000;
+
+  #topControl {
+    .fa {
+      top: 4px !important;
+    }
   }
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1500;
 }
