@@ -95,7 +95,7 @@ class Header extends React.Component {
     return (
       <header className="header">
         <div className="top-bar container-fluid">
-          <Actions />
+          <Actions showHireMeButton={false} />
           <Social />
         </div>
         <Intro />

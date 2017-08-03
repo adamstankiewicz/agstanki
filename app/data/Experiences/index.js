@@ -52,6 +52,7 @@ const positions = [
     location: 'Pittsburgh, PA',
     title: 'Ph.D. Student',
     startDate: moment('2015-08-01'),
+    endDate: moment('2017-07-01'),
     description: [
       'Developed a browser-based conversational turn detector for video conversations (i.e., Google Hangouts) using Python and JavaScript.',
       [
@@ -60,7 +61,14 @@ const positions = [
       ],
       'Planned and carried out several experiments utilizing Amazon Mechanical Turk to learn about user behavior in giving advice to peers.',
       'Designed a prototype of an embeddable JavaScript library to enable peer-to-peer advice giving and receiving on third-party websites.',
-    ]
+    ],
+  },
+  {
+    company: 'Ground Signal',
+    location: 'Boston, MA',
+    title: 'Software Engineer',
+    startDate: moment('2017-07-01'),
+    description: [],
   },
   {
     company: 'Carbonite',
