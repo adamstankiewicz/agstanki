@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactGA from 'react-ga';
-import { Router, browserHistory } from 'react-router';
+import { Router, hashHistory } from 'react-router';
 
 import Experiences from './components/Experiences';
 import Education from './components/Education';
@@ -38,6 +38,6 @@ const logPageView = () => {
 };
 
 ReactDOM.render(
-  <Router history={browserHistory} routes={routes} onUpdate={logPageView} />,
+  <Router history={hashHistory} routes={routes} onUpdate={logPageView} />,
   document.body.appendChild(document.createElement('div'))
 );
