@@ -10,6 +10,7 @@ class Boomerangs extends React.Component {
       lightboxIsOpen: false,
       currentImage: 0,
     };
+
     this.closeLightbox = this.closeLightbox.bind(this);
     this.openLightbox = this.openLightbox.bind(this);
     this.gotoNext = this.gotoNext.bind(this);
@@ -18,18 +19,22 @@ class Boomerangs extends React.Component {
     this.handleClickImage = this.handleClickImage.bind(this);
 
     this.images = [
-      { src: '/assets/images/boomerangs/1.jpg', orientation: 'portrait' },
-      { src: '/assets/images/boomerangs/2.jpg', orientation: 'landscape' },
-      { src: '/assets/images/boomerangs/3.jpg', orientation: 'landscape' },
-      { src: '/assets/images/boomerangs/4.jpg', orientation: 'landscape' },
-      { src: '/assets/images/boomerangs/5.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/13.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/16.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/10.jpg', orientation: 'portrait' },
       { src: '/assets/images/boomerangs/6.jpg', orientation: 'portrait' },
       { src: '/assets/images/boomerangs/7.jpg', orientation: 'landscape' },
-      { src: '/assets/images/boomerangs/8.jpg', orientation: 'landscape' },
-      { src: '/assets/images/boomerangs/9.jpg', orientation: 'landscape' },
-      { src: '/assets/images/boomerangs/10.jpg', orientation: 'portrait' },
+      { src: '/assets/images/boomerangs/1.jpg', orientation: 'portrait' },
       { src: '/assets/images/boomerangs/11.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/8.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/5.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/14.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/3.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/2.jpg', orientation: 'landscape' },
       { src: '/assets/images/boomerangs/12.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/4.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/15.jpg', orientation: 'landscape' },
+      { src: '/assets/images/boomerangs/9.jpg', orientation: 'landscape' },
     ];
   }
 
