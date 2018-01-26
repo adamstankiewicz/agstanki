@@ -1,3 +1,3 @@
 # Adam Stankiewicz
 
-TODO Write a README file.
+Visit my personal website: http://agstanki.com

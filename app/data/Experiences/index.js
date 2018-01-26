@@ -68,6 +68,14 @@ const positions = [
     location: 'Boston, MA',
     title: 'Software Engineer',
     startDate: moment('2017-07-01'),
+    endDate: moment('2018-01-01'),
+    description: [],
+  },
+  {
+    company: 'edX',
+    location: 'Cambridge, MA',
+    title: 'Software Engineer',
+    startDate: moment('2018-01-01'),
     description: [],
   },
   {
