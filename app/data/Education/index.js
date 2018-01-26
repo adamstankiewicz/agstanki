@@ -15,15 +15,6 @@ const degrees = [
       'Presidential Honors (2013 - 2014); Dean’s List (2011 - 2015)',
     ],
   },
-  {
-    degree: 'PhD, Human-Computer Interaction',
-    university: 'Carnegie Mellon University',
-    startDate: moment('2015-08-01'),
-    advisor: {
-      url: 'http://www.cs.cmu.edu/~chinmayk/',
-      name: 'Dr. Chinmay Kulkarni',
-    },
-  },
 ];
 
 export default degrees;
