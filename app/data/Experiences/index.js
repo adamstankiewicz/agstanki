@@ -69,7 +69,13 @@ const positions = [
     title: 'Software Engineer',
     startDate: moment('2017-07-01'),
     endDate: moment('2018-01-01'),
-    description: [],
+    description: [
+      'Created several core, reusable, and configurable Ractive.js components used throughout the web application.',
+      'Rebuilt homepage of web application with fuzzy search functionality, working closely with UX designer and product manager.',
+      'Developed robust filtering tools for venues, including the ability to select categories, neighborhoods, etc.',
+      'Added support for exporting/downloading venues data to CSV directly from the web application in the browser.',
+      'Created worker scripts that run periodically to make sure audiences and profiles stay up to date as new data is fetched from Instagram.',
+    ],
   },
   {
     company: 'edX',
